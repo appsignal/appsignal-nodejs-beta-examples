@@ -1,5 +1,4 @@
-const { appsignal } = require("./appsignal");
-const { expressErrorHandler } = require("@appsignal/nodejs")
+const { Appsignal, expressErrorHandler } = require("@appsignal/nodejs")
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();

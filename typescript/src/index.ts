@@ -1,5 +1,4 @@
-import appsignal from "./appsignal";
-import { expressErrorHandler } from "@appsignal/nodejs";
+import { Appsignal, expressErrorHandler } from "@appsignal/nodejs";
 import express from "express";
 const app = express();
 

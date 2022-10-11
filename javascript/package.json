@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "node --require ./appsignal.js index.js"
+    "server": "node --require ./appsignal.cjs index.js"
   },
   "license": "ISC",
   "dependencies": {
