@@ -1,0 +1,13 @@
+{
+  "name": "appsignal-3-beta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "node --require ./appsignal.js index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@appsignal/nodejs": "^3.0.0-beta.1",
+    "express": "^4.18.2"
+  }
+}
